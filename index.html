@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/8fa2735567.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Lucas Smolnicki</title>
+</head>
+
+<body>
+
+    <header id="hero" class="container hero">
+
+        <nav class="hero__navigation">
+            <ul class="hero__list">
+                <li class="hero__item"><a class="hero__link" href="#about">O MNIE</a></li>
+                <li class="hero__item"><a class="hero__link" href="#hobby">ZAINTERESOWANIA</a></li>
+                <li class="hero__item"><a class="hero__link" href="#skill">UMIEJĘTNOŚCI</a></li>
+                <li class="hero__item"><a class="hero__link" href="#project">PROJEKTY</a></li>
+                <li class="hero__item"><a class="hero__link" href="#contact">KONTAKT</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero__wrapper">
+            <div class="hero__content">
+                <h1 class="hero__h1">Hi, I'm <a class="hero__mail" href="mailto:lukasz.smolnicki@gmail.com">Lucas
+                        Smolnicki</a></h1>
+                <h2 class="hero__h2">Front-End Web Developer</h2>
+                <p class="hero__motto">"It's all about where your mind's at."</p>
+            </div>
+
+        </section>
+
+        <section id="about" class="about">
+            <div class="about__photo">
+            </div>
+            <div class="about__article">
+                <p class="about__p">Cześć! Nazywam się Łukasz Smolnicki jestem z Gdańska, chcę być Junior Front-End
+                    Developerem.
+                </p>
+                <p class="about__p">Obecnie uczę się w Infoshare Academy, żeby zwiększyć moje programistyczne
+                    umiejętności.</p>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <section id="hobby" class="container hobby">
+            <div class="hobby__content hobby__kite">
+                <div class="hobby__image hobby__image--kite"></div>
+                <div class="hobby__text">
+                    <h2 class="hobby__h2">Kite Surfing</h2>
+                    <p>Od 2018 roku rozpocząłem przygodę z Kite Surfingiem. Jest to sport dla ludzi ceniących wolność i
+                        adrenalinę. Łączy w sobie wiele dyscyplin takich jak: snowboard, wakeboard, windsurfing czy
+                        surfing.
+                    </p>
+                </div>
+            </div>
+            <div class="hobby__content hobby__bike">
+                <div class="hobby__image hobby__image--bike"></div>
+                <div class="hobby__text">
+                    <h2 class="hobby__h2">Rower</h2>
+                    <p>Rower jest jednym z najlepszych środków transportu, łączy w sobie sport i rekreacje. Pozwala
+                        doznawać
+                        przyrodę bez szyb, może dotrzeć wszędzie jest ekologiczny i tani.</p>
+                </div>
+            </div>
+            <div class="hobby__content hobby__snowboard">
+                <div class="hobby__image hobby__image--snowboard"></div>
+                <div class="hobby__text">
+                    <h2 class="hobby__h2">Snowboard</h2>
+                    <p>Każdego roku staram się spędzić z moim "parapetem" przynajmniej dwa tygodnie w górach. Uwielbiam
+                        zjeżdżać w nocy, kiedy stoki pustoszeją mam większą swobodę i spokój.</p>
+                </div>
+            </div>
+            <div class="hobby__content hobby__run">
+                <div class="hobby__image hobby__image--run"></div>
+                <div class="hobby__text">
+                    <h2 class="hobby__h2">Biegi ekstremalne</h2>
+                    <p>Biegi z przeszkodami są ze mną zanim stały się w Polsce modne. Miałem zaszczyt uczestniczyć w
+                        pierwszej edycji
+                        RUNMUGADDEON oraz MudMax. Przez kilka lat uzbierała się pokaźna kolekcja medali.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill" class="container__medium skill">
+            <div class="skill__content skill__content--html">
+                <div class="skill__image"><i class="fab fa-html5"></i></div>
+                <div class="skill__progress">
+                    <h2>HTML 5</h2><progress max="100" value="75"></progress>
+                </div>
+            </div>
+            <div class="skill__content skill__content--css">
+                <div class="skill__image"><i class="fab fa-css3-alt"></i></div>
+                <div class="skill__progress">
+                    <h2>CSS</h2><progress max="100" value="50"></progress>
+                </div>
+            </div>
+            <div class="skill__content skill__content--js">
+                <div class="skill__image"><i class="fab fa-js"></i></div>
+                <div class="skill__progress">
+                    <h2>JavaScript</h2><progress max="100" value="10"></progress>
+                </div>
+            </div>
+            <div class="skill__content skill__content--bootstrap">
+                <div class="skill__image"><i class="fab fa-bootstrap"></i></div>
+                <div class="skill__progress">
+                    <h2>Bootstrap</h2><progress max="100" value="25"></progress>
+                </div>
+            </div>
+        </section>
+
+        <section id="project" class="container__medium project">
+            <div class="project__content">
+                <h2 class="project__name">Portfolio</h2>
+                <div class="project__image project__image--portfolio"></div>
+            </div>
+            <div class="project__content">
+                <h2 class="project__name">Notify</h2>
+                <div class="project__image project__image--notify"></div>
+            </div>
+            <div class="project__content">
+                <h2 class="project__name">Cahee</h2>
+                <div class="project__image project__image--cahee"></div>
+            </div>
+        </section>
+
+    </main>
+    </footer>
+    <section id="contact" class="container__small contact">
+        <div class="contact__data">
+            <div class="contact__media">
+                <p class="contact__text"><i class="far fa-envelope"></i> Contact information: <a class="contact__link"
+                        href="mailto:lukasz.smolnicki@gmail.com">lukasz.smolnicki@gmail.com</a>.</p>
+                <p class="contact__text"><i class="fab fa-linkedin"></i> <a class="contact__link" href="#"> Linkedin</a></p>
+                <p class="contact__text"><i class="fab fa-github"></i> <a class="contact__link" href="https://github.com/lukasz-smolnicki">
+                        Github</a></p>
+                <p class="contact__text"><i class="fas fa-portrait"></i> <a class="contact__link" href="https://github.com/lukasz-smolnicki">
+                        Portfolio</a></p>
+            </div>
+            <p>Posted by: Lucas Smolnicki</p>
+        </div>
+    </section>
+
+    </footer>
+
+</body>
+
+</html>

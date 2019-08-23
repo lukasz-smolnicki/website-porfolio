@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: lightcyan;
+}
+
+body {
+    background: lightgrey;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    min-height: 800px;
+}
+
+.container__medium {
+    max-width: 1250px;
+    margin: 0 auto;
+    min-height: 500px;
+}
+
+.container__small {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* HERO */
+
+.hero {
+    background: url(images/hero.jpg) no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hero__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15%;
+}
+
+.hero__h1 {
+    font-size: 25px;
+}
+.hero__h2 {
+    font-size: 22px;
+    font-family: serif;
+}
+
+.hero__mail {
+    text-decoration: none;
+    color: rgb(255, 150, 100);
+}
+
+.hero__motto {
+    font-style: italic;
+}
+
+/* NAVIGATION */
+
+.hero__navigation {
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hero__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 200%;
+}
+
+.hero__link {
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.hero__item:hover {
+    background-color: rgba(200, 70, 20, 0.5)
+}
+
+.hero__item:active {
+    background-color: rgba(200, 70, 20, 0.5)
+}
+
+.hero__item {
+    border-left: 1px solid orangered;
+}
+
+.hero__item:last-child {
+    border-right: 1px solid orangered;
+}
+
+/* ABOUT */
+
+.about {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(104, 116, 140, 0.3);
+}
+
+.about__photo {
+    width: 150px;
+    height: 150px;
+    background: url(images/me.jpg) no-repeat center center;
+    background-size: 100%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin: 20px;
+}
+
+.about__article {
+    margin: 20px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.about__p {
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+}
+
+/* HOBBY */
+
+.hobby {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background: url(images/hobby1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.hobby__content {
+    margin: 20px;
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 200px;
+    width: 500px;
+    background-color: rgba(104, 116, 140, 0.4);
+}
+
+.hobby__content:hover {
+    cursor: pointer;
+    background-color: rgba(200, 70, 20, 0.5)
+}
+
+.hobby__image {
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+    border-radius: 30%;
+    flex-shrink: 0;
+}
+
+.hobby__image--kite {
+    background: url(images/kite.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.hobby__image--bike {
+    background: url(images/bike.jpg) no-repeat center center;
+    background-size: cover;
+
+}
+
+.hobby__image--snowboard {
+    background: url(images/snow.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.hobby__image--run {
+    background: url(images/run.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.hobby__text {
+    padding: 20px;
+}
+
+.hobby__h2 {
+    border-bottom: 1px solid white;
+}
+
+/* SKILL */
+
+.skill {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #d6e4ed;
+}
+
+.skill__content {
+    margin: 20px;
+    border-radius: 4%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 200px;
+    width: 500px;
+}
+
+.skill__content--html {
+    background-color: #e44d26;
+}
+
+.skill__content--css {
+    background-color: #0070ba;
+}
+
+.skill__content--js {
+    background-color: #63a814;
+}
+
+.skill__content--bootstrap {
+    background-color: #563d7c;
+}
+
+.skill__image {
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+    font-size: 150px;
+    flex-shrink: 0;
+}
+
+/* PROJEKTY */
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(224, 224, 224);
+}
+
+.project__content {
+    margin: 20px;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 2px orange dotted;
+
+}
+
+.project__name {
+    color: orange;
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid white;
+}
+
+.project__image {
+    height: 216px;
+    width: 396px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.project__image--portfolio {
+    background: url(images/project.png) no-repeat top center;
+    background-size: cover;
+}
+
+.project__image--notify {
+    background: url(images/project1.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+.project__image--cahee {
+    background: url(images/projekt2.png) no-repeat top center;
+    background-size: cover;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategray;
+}
+
+.contact__data {
+    padding: 10px;
+}
+
+.contact__text {
+    font-size: 18px;
+    padding: 5px;
+}
+.contact__media {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+}
+
+.footer__p {
+    padding: 20px;
+}
+
+.contact__link:hover {
+    color: orange;
+}
